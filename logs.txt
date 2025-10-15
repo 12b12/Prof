@@ -1,0 +1,56 @@
+  458  ls
+  459  ls -a
+  460  echo "set history save on"
+  461  echo "set history save on" > ~/.gdbinit
+  462  cat ~/.gdbinit
+  464  pwd
+  465  ls
+  466  cd prof
+  467  cd prof
+  468  cd Prof
+  469  pwd
+  470  ls
+  471  clear
+  472  logout
+  473  make
+  474  ./mini_ci testcases/basic_add.s
+  475  make check
+  476  make clean
+  477  make debug
+  478  gdb mini_ci
+  479  make
+  480  make check
+  481  mini_ci/testcases/err_ops2.s
+  482  ./mini_ci testcases/err_ops2.s
+  483  ./mini_ci testcases/err_ops2.s
+  484  gdb ./mini_ci
+  485  make clean
+  486  make debug
+  487  gdb run testcases
+  488  make debug
+  489  make clean
+  490  make debug
+  491  gdb ./mini_ci
+  492  make clean
+  493  make debug
+  494  ./mini_ci testcases/basic_add.s
+  495  ./mini_ci testcases
+  496  ./mini_ci testcases/basic_add.s
+  497  make check
+  498  make check
+  499  make check
+  500  make check
+  501  make
+  502  mini_ci check
+  503  make check
+  504  history
+  505  history > logfile.txt
+
+   26  run testcases/err.ops2.s
+   27  run testcases/err_ops2.s
+   28  bt
+   30  p *reader
+   32  p *reader
+   33  make clean
+   34  q
+   35  show commands
